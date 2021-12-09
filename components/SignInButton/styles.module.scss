@@ -1,0 +1,40 @@
+.signInBtn {
+    height: 3rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    background: var(--gray-900);
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-weight: bold;
+    transition: filter 0.2s;
+    -webkit-transition: filter 0.2s;
+    -moz-transition: filter 0.2s;
+    -ms-transition: filter 0.2s;
+    -o-transition: filter 0.2s;
+
+    svg {
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    svg.closeIcon {
+        margin: 1rem
+    }
+
+    svg:first-child {
+        margin: 0 1rem;
+    }
+    
+
+    &:hover {
+        filter: brightness(0.8);
+        -webkit-filter: brightness(0.8);
+    }
+}
